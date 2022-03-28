@@ -1,0 +1,23 @@
+<CATALOG>
+<CD>
+<appointmentid>123</appointmentid>
+<patience_id>1</patience_id>
+<doctorid>2</doctorid>
+<dateofappointment>22</dateofappointment>
+<disease> fever</disease>
+</CD>
+<CD>
+<appointmentid>124</appointmentid>
+<patience_id>2</patience_id>
+<doctorid>3</doctorid>
+<dateofappointment>20</dateofappointment>
+<disease> pains</disease>
+</CD>
+<CD>
+<appointmentid>125</appointmentid>
+<patience_id>3</patience_id>
+<doctorid>2</doctorid>
+<dateofappointment>18</dateofappointment>
+<disease> cold</disease>
+</CD>
+</CATALOG>
