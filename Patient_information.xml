@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<!DOCTYPE SELECT_from_Payments_p [
+  <!ELEMENT SELECT_from_Payments_p (DATA_RECORD*)>
+  <!ELEMENT DATA_RECORD (payment_id?,payment_date?,payment_method?,payment_amount?)+>
+  <!ELEMENT payment_id (#PCDATA)>
+  <!ELEMENT payment_date (#PCDATA)>
+  <!ELEMENT payment_method (#PCDATA)>
+  <!ELEMENT payment_amount (#PCDATA)>
+]>
+<SELECT_from_Payments_p>
+  <DATA_RECORD>
+    <payment_id>1,001</payment_id>
+    <payment_date>2008-11-11</payment_date>
+    <payment_method>CREDIT CARD</payment_method>
+    <payment_amount>103</payment_amount>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <payment_id>1,002</payment_id>
+    <payment_date>2010-01-13</payment_date>
+    <payment_method>CREDIT CARD</payment_method>
+    <payment_amount>105</payment_amount>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <payment_id>1,003</payment_id>
+    <payment_date>2015-01-21</payment_date>
+    <payment_method>DEBIT CARD</payment_method>
+    <payment_amount>100</payment_amount>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <payment_id>1,004</payment_id>
+    <payment_date>2015-01-02</payment_date>
+    <payment_method>DEBIT CARD</payment_method>
+    <payment_amount>99</payment_amount>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <payment_id>1,005</payment_id>
+    <payment_date>2008-11-11</payment_date>
+    <payment_method>CREDIT CARD</payment_method>
+    <payment_amount>104</payment_amount>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <payment_id>1,006</payment_id>
+    <payment_date>2010-01-13</payment_date>
+    <payment_method>CREDIT CARD</payment_method>
+    <payment_amount>105</payment_amount>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <payment_id>1,007</payment_id>
+    <payment_date>2015-01-21</payment_date>
+    <payment_method>DEBIT CARD</payment_method>
+    <payment_amount>80</payment_amount>
+  </DATA_RECORD>
+</SELECT_from_Payments_p>

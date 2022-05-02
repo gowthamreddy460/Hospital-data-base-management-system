@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!DOCTYPE SELECT_FROM_Bill_b [
+  <!ELEMENT SELECT_FROM_Bill_b (DATA_RECORD*)>
+  <!ELEMENT DATA_RECORD (bill_id?,patients_id?,doctor_charge?,room_charge?,no_of_days?)+>
+  <!ELEMENT bill_id (#PCDATA)>
+  <!ELEMENT patients_id (#PCDATA)>
+  <!ELEMENT doctor_charge (#PCDATA)>
+  <!ELEMENT room_charge (#PCDATA)>
+  <!ELEMENT no_of_days (#PCDATA)>
+]>
+<SELECT_FROM_Bill_b>
+  <DATA_RECORD>
+    <bill_id>222</bill_id>
+    <patients_id>1</patients_id>
+    <doctor_charge>50</doctor_charge>
+    <room_charge>100</room_charge>
+    <no_of_days>2</no_of_days>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <bill_id>223</bill_id>
+    <patients_id>2</patients_id>
+    <doctor_charge>75</doctor_charge>
+    <room_charge>100</room_charge>
+    <no_of_days>1</no_of_days>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <bill_id>224</bill_id>
+    <patients_id>3</patients_id>
+    <doctor_charge>100</doctor_charge>
+    <room_charge>200</room_charge>
+    <no_of_days>2</no_of_days>
+  </DATA_RECORD>
+</SELECT_FROM_Bill_b>

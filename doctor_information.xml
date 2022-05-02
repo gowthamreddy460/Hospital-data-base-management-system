@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<!DOCTYPE SELECT_from_doctor_information_di_ [
+  <!ELEMENT SELECT_from_doctor_information_di_ (DATA_RECORD*)>
+  <!ELEMENT DATA_RECORD (doctor_id?,first_name?,last_name?,address?,phone_number?,job_name?)+>
+  <!ELEMENT doctor_id (#PCDATA)>
+  <!ELEMENT first_name (#PCDATA)>
+  <!ELEMENT last_name (#PCDATA)>
+  <!ELEMENT address (#PCDATA)>
+  <!ELEMENT phone_number (#PCDATA)>
+  <!ELEMENT job_name (#PCDATA)>
+]>
+<SELECT_from_doctor_information_di_>
+  <DATA_RECORD>
+    <doctor_id>1</doctor_id>
+    <first_name>virat</first_name>
+    <last_name>reddy</last_name>
+    <address>india</address>
+    <phone_number>4,123,789</phone_number>
+    <job_name>Dentist</job_name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <doctor_id>2</doctor_id>
+    <first_name>sandeep</first_name>
+    <last_name>reddy</last_name>
+    <address>india</address>
+    <phone_number>4,123,734</phone_number>
+    <job_name>cardio</job_name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <doctor_id>3</doctor_id>
+    <first_name>venkat</first_name>
+    <last_name>roa</last_name>
+    <address>Us</address>
+    <phone_number>4,123,432</phone_number>
+    <job_name>Dermotologist</job_name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <doctor_id>4</doctor_id>
+    <first_name>sandeep</first_name>
+    <last_name>reddy</last_name>
+    <address>Us</address>
+    <phone_number>412,343</phone_number>
+    <job_name>Dermotologist</job_name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <doctor_id>5</doctor_id>
+    <first_name>sampath</first_name>
+    <last_name>reddy</last_name>
+    <address>Uk</address>
+    <phone_number>41,233</phone_number>
+    <job_name>Dermotologist</job_name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <doctor_id>6</doctor_id>
+    <first_name>rohit</first_name>
+    <last_name>reddy</last_name>
+    <address>india</address>
+    <phone_number>4,123,749</phone_number>
+    <job_name>Dentist</job_name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <doctor_id>7</doctor_id>
+    <first_name>dhoni</first_name>
+    <last_name>mahi</last_name>
+    <address>India</address>
+    <phone_number>41,433</phone_number>
+    <job_name>Dermotologist</job_name>
+  </DATA_RECORD>
+</SELECT_from_doctor_information_di_>

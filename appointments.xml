@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!DOCTYPE SELECT_from_appointments_a [
+  <!ELEMENT SELECT_from_appointments_a (DATA_RECORD*)>
+  <!ELEMENT DATA_RECORD (appointment_id?,Patient_information_Patient_information_patient_id?,doctor_information_doctor_id?,appointment_date?,disease?,Bill_bill_id?)+>
+  <!ELEMENT appointment_id (#PCDATA)>
+  <!ELEMENT Patient_information_Patient_information_patient_id (#PCDATA)>
+  <!ELEMENT doctor_information_doctor_id (#PCDATA)>
+  <!ELEMENT appointment_date (#PCDATA)>
+  <!ELEMENT disease (#PCDATA)>
+  <!ELEMENT Bill_bill_id (#PCDATA)>
+]>
+<SELECT_from_appointments_a>
+  <DATA_RECORD>
+    <appointment_id>1</appointment_id>
+    <Patient_information_Patient_information_patient_id>1</Patient_information_Patient_information_patient_id>
+    <doctor_information_doctor_id>1</doctor_information_doctor_id>
+    <appointment_date>2008-11-11</appointment_date>
+    <disease>Gum disease</disease>
+    <Bill_bill_id>222</Bill_bill_id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <appointment_id>2</appointment_id>
+    <Patient_information_Patient_information_patient_id>2</Patient_information_Patient_information_patient_id>
+    <doctor_information_doctor_id>1</doctor_information_doctor_id>
+    <appointment_date>2010-1-13</appointment_date>
+    <disease>Coronary Artery Disease</disease>
+    <Bill_bill_id>224</Bill_bill_id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <appointment_id>3</appointment_id>
+    <Patient_information_Patient_information_patient_id>3</Patient_information_Patient_information_patient_id>
+    <doctor_information_doctor_id>3</doctor_information_doctor_id>
+    <appointment_date>2010-1-13</appointment_date>
+    <disease>Psoriasis</disease>
+    <Bill_bill_id>223</Bill_bill_id>
+  </DATA_RECORD>
+</SELECT_from_appointments_a>

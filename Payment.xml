@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<!DOCTYPE SELECT_from_Patient_information_pi2 [
+  <!ELEMENT SELECT_from_Patient_information_pi2 (DATA_RECORD*)>
+  <!ELEMENT DATA_RECORD (Patient_information_patient_id?,first_name?,last_name?,address?,gender?,age?,disease?,phone_number?,register?,Payments_payment_id?)+>
+  <!ELEMENT Patient_information_patient_id (#PCDATA)>
+  <!ELEMENT first_name (#PCDATA)>
+  <!ELEMENT last_name (#PCDATA)>
+  <!ELEMENT address (#PCDATA)>
+  <!ELEMENT gender (#PCDATA)>
+  <!ELEMENT age (#PCDATA)>
+  <!ELEMENT disease (#PCDATA)>
+  <!ELEMENT phone_number (#PCDATA)>
+  <!ELEMENT register (#PCDATA)>
+  <!ELEMENT Payments_payment_id (#PCDATA)>
+]>
+<SELECT_from_Patient_information_pi2>
+  <DATA_RECORD>
+    <Patient_information_patient_id>1</Patient_information_patient_id>
+    <first_name>kumar</first_name>
+    <last_name>rao</last_name>
+    <address>US</address>
+    <gender>Male</gender>
+    <age>23</age>
+    <disease>tooth pain</disease>
+    <phone_number>112,121</phone_number>
+    <register>2020-11-11</register>
+    <Payments_payment_id>1,001</Payments_payment_id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <Patient_information_patient_id>2</Patient_information_patient_id>
+    <first_name>chand</first_name>
+    <last_name>laks</last_name>
+    <address>US</address>
+    <gender>Male</gender>
+    <age>23</age>
+    <disease>Coronary Artery Disease  </disease>
+    <phone_number>11,213</phone_number>
+    <register>2021-11-11</register>
+    <Payments_payment_id>1,002</Payments_payment_id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <Patient_information_patient_id>3</Patient_information_patient_id>
+    <first_name>kumar</first_name>
+    <last_name>rao</last_name>
+    <address>US</address>
+    <gender>Male</gender>
+    <age>23</age>
+    <disease>Psoriasis</disease>
+    <phone_number>1,121,123</phone_number>
+    <register>2021-11-11</register>
+    <Payments_payment_id>1,003</Payments_payment_id>
+  </DATA_RECORD>
+</SELECT_from_Patient_information_pi2>
